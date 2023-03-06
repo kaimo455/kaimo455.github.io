@@ -21,7 +21,7 @@ timezone: Asia/Shanghai
 
 title: Kai Mo                          # the main title
 
-tagline: Welcome to join the conference   # it will display as the sub-title
+tagline: Welcome to join the conference.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A page for recording my learning interests, including reading and notes.
