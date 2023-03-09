@@ -1,7 +1,7 @@
 ---
 title: Introduction to Statistic Learning Notes
 author: Kai Mo
-date: 2023-03-10 12:21:00 +0800
+date: 2023-03-09 12:21:00 +0800
 categories: [reading, machine learning, deep learning]
 tags: [reading]
 math: true

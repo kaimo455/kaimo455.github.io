@@ -1,7 +1,7 @@
 ---
 title: Formula Derivation
 author: Kai Mo
-date: 2023-03-10 00:19:00 +0800
+date: 2023-03-09 00:19:00 +0800
 categories: [math, machine learning, deep learning]
 tags: [math]
 math: true
