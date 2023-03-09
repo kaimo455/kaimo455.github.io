@@ -1092,10 +1092,10 @@ mermaid: true
 
     Let's go through a example to illustrate it. Suppose we have these balls below:
 
-    | Ball  | A | B | C | D |
-    |-----|----|----|---|---|
-    | #red ball | 5 | 3 | 6 | 8 |
-    | #white ball | 5  | 7 | 4 | 2 |
+    | Ball        | A   | B   | C   | D   |
+    | ----------- | --- | --- | --- | --- |
+    | #red ball   | 5   | 3   | 6   | 8   |
+    | #white ball | 5   | 7   | 4   | 2   |
 
     Then, we pick 5 balls from those boxes with replacement, the first box we select is randomly from those five boxes with uniform probability, after the first box we follow a specific pattern to choose the next box.  Finally we have $O = \left\{ Red,\ Red,\ White,\ Red,\ White \right\}$, but we don't know what box we choose to pick from every time, e.g. $B = \left\{ \text{box}?,\ \text{box}?,\ \text{box}?,\ \text{box}?,\ \text{box}? \right\}$, we call it hidden state. So, the $O$ sequence is the observation sequence that we can observe directly, $B$ sequence is the state sequence that we cannot observe. Both of them have length of 5.  
     So, why we put the example above here? The selecting box process is a state transition, because the next box we select is depends on previous box. E.g. If current box is A, we have 100% chance to select box B as next box. If current box is C, we have 40% chance to select box B as next box, 60% chance for box D. We can use a state transition matrix to represent the probabilities.
@@ -1122,9 +1122,7 @@ mermaid: true
 
     These two matrices are the key idea of HMM, matrix $A$ tells us how state evolve over time, matrix $B$ tells us the probability of what we observed given that hidden state. We can use a chain figure to represent the relationship as figure 1 shows.
 
-    ![Temporal evolution of a hidden Markov
-    model](media/image1.png){width="3.52755905511811in"
-    height="0.9078937007874016in"}
+    ![Temporal evolution of a hidden Markovmodel](media/image1.png)
 
     Figure 1. Relationship between state sequence and observe sequence[^1]
 
