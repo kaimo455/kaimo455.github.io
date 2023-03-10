@@ -63,7 +63,7 @@ mermaid: true
 
 - Term Frequency-Inverse Document Frequency (TF-IDF)
 
-  $IDF = \log{\frac{\#doc}{\#doc\_include\_term + 1}}$
+  $IDF = \log{\frac{ \# doc}{ \# doc\_include\_term + 1}}$
 
 - Topic Model
 
