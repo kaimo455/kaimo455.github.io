@@ -18,7 +18,7 @@ mermaid: true
 
 ### GBDT
 
-Placeholder
+TBD
 
 ### XGBoost
 
