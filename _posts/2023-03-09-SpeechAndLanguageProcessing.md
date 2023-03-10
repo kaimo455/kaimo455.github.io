@@ -1,6 +1,6 @@
 ---
 title: Speech and Language Processing
-author: Kai Mo
+author: kai
 date: 2023-03-09 00:00:00 +0800
 categories: [reading, machine learning, deep learning]
 tags: [reading]

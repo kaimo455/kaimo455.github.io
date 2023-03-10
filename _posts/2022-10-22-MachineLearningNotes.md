@@ -1,6 +1,6 @@
 ---
 title: Machine Learning Notes
-author: Kai Mo
+author: kai
 date: 2022-10-22 00:00:00 +0800
 categories: [reading, machine learning]
 tags: [reading]

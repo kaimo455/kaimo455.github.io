@@ -1,6 +1,6 @@
 ---
 title: Formula Derivation
-author: Kai Mo
+author: kai
 date: 2023-03-09 00:19:00 +0800
 categories: [math, machine learning, deep learning]
 tags: [math]

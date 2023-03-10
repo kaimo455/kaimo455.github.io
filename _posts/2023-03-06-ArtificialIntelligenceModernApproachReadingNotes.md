@@ -1,6 +1,6 @@
 ---
 title: Artificial Intelligence a Modern Approach Reading Notes
-author: Kai Mo
+author: kai
 date: 2023-03-06 23:39:00 +0800
 categories: [reading, machine learning, deep learning]
 tags: [reading]
